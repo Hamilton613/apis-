@@ -9,7 +9,7 @@ async function fetchProducts() {
         data.products.forEach(product => {
             const div = document.createElement("div");
             div.className = "card mb-3";
-            div.style.width = "18rem";
+            div.style.width = "18rem"; 
             div.style.margin = "10px";
             div.innerHTML = `
                 <img src="${product.thumbnail}" class="card-img-top" alt="${product.title}">
