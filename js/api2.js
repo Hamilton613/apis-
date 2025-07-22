@@ -20,7 +20,7 @@ async function fetchUsers() {
                     <p class="card-text"><strong>City:</strong> ${user.address.city}</p>
                 </div>
             `;
-            ubicacion.appendChild(div);
+            ubicacion.appendChild(div)
         });
     } catch (error) {
         console.error("Error fetching users:", error);
