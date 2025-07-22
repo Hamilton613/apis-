@@ -4,8 +4,7 @@ async function fetchProducts() {
     try {
         const response = await fetch(URL);
         const data = await response.json();
-        const ubicacion = document.getElementById("ubicacion");
-
+        const ubicacion = document.getElementById("ubicacion")
         data.forEach(product => {
             const div = document.createElement("div");
             div.className = "card mb-3";
